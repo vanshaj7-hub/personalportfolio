@@ -1,26 +1,84 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #101415;
+  --foreground: #e0e3e5;
+  --surface-low: #191c1e;
+  --surface-high: #272a2c;
+  --tertiary: #4edea3;
+  --muted: #909097;
+  --muted-variant: #c6c6cd;
+  --border-subtle: #2a2d30;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface-low: var(--surface-low);
+  --color-surface-high: var(--surface-high);
+  --color-tertiary: var(--tertiary);
+  --color-muted: var(--muted);
+  --color-muted-variant: var(--muted-variant);
+  --color-border-subtle: var(--border-subtle);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+.container-site {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+  .container-site {
+    padding-inline: 2rem;
+  }
+}
+
+.glow-mint {
+  background: radial-gradient(
+    ellipse 80% 60% at 50% 50%,
+    rgb(78 222 163 / 0.12),
+    transparent 70%
+  );
+}
+
+.glow-contact {
+  background: radial-gradient(
+    ellipse 70% 50% at 50% 100%,
+    rgb(78 222 163 / 0.08),
+    transparent 65%
+  );
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 300,
+    "GRAD" 0,
+    "opsz" 24;
+  user-select: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--tertiary);
+  outline-offset: 2px;
 }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#050810"/>
+  <ellipse cx="640" cy="580" rx="380" ry="60" fill="#4edea3" opacity="0.12"/>
+  <polygon points="640,120 920,520 360,520" fill="none" stroke="#4edea3" stroke-width="3" opacity="0.7"/>
+  <polygon points="640,180 820,480 460,480" fill="#1a2838" stroke="#6ee7b7" stroke-width="2"/>
+  <circle cx="640" cy="340" r="48" fill="#4edea3" opacity="0.6"/>
+  <circle cx="580" cy="300" r="24" fill="#fff" opacity="0.15"/>
+  <text x="48" y="64" fill="#4edea3" font-family="monospace" font-size="20">AURA SYNTH — WEBGL PREVIEW</text>
+  <rect x="48" y="600" width="200" height="8" rx="4" fill="#4edea3" opacity="0.5"/>
+</svg>

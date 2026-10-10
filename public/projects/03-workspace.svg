@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#101415"/>
+  <rect x="40" y="40" width="1200" height="640" rx="16" fill="#191c1e" stroke="#2a2d30"/>
+  <rect x="40" y="40" width="1200" height="48" fill="#0a0c0d"/>
+  <circle cx="72" cy="64" r="8" fill="#4edea3"/>
+  <circle cx="96" cy="64" r="8" fill="#909097"/>
+  <circle cx="120" cy="64" r="8" fill="#909097"/>
+  <rect x="56" y="108" width="280" height="548" fill="#101415"/>
+  <rect x="72" y="132" width="240" height="24" rx="4" fill="#272a2c"/>
+  <rect x="72" y="168" width="200" height="16" rx="3" fill="#272a2c" opacity="0.6"/>
+  <rect x="360" y="108" width="856" height="548" fill="#0d1012"/>
+  <rect x="392" y="140" width="792" height="480" rx="8" fill="#15181a" stroke="#272a2c"/>
+  <text x="420" y="200" fill="#4edea3" font-family="monospace" font-size="18">quantum.workspace</text>
+  <rect x="420" y="220" width="360" height="8" fill="#272a2c"/>
+</svg>

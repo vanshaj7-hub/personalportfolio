@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a0e10"/>
+  <rect x="80" y="80" width="1120" height="560" rx="12" fill="#101415" stroke="#272a2c"/>
+  <text x="120" y="140" fill="#4edea3" font-family="monospace" font-size="22">pipeline.forge</text>
+  <text x="120" y="180" fill="#c6c6cd" font-family="monospace" font-size="16">$ forge diff --tokens ./design-system</text>
+  <text x="120" y="220" fill="#4edea3" font-family="monospace" font-size="16">✓ 128 tokens validated</text>
+  <text x="120" y="252" fill="#e0e3e5" font-family="monospace" font-size="16">✓ contrast AA pass (WCAG)</text>
+  <text x="120" y="284" fill="#909097" font-family="monospace" font-size="16">→ snapshot 04/04 complete</text>
+  <rect x="120" y="320" width="1040" height="16" rx="8" fill="#272a2c"/>
+  <rect x="120" y="320" width="720" height="16" rx="8" fill="#4edea3" opacity="0.75"/>
+  <rect x="120" y="380" width="480" height="200" rx="8" fill="#191c1e" stroke="#2a2d30"/>
+  <rect x="640" y="380" width="520" height="200" rx="8" fill="#191c1e" stroke="#2a2d30"/>
+</svg>
