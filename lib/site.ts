@@ -1,5 +1,5 @@
 export const site = {
-  name: "Portfolio",
+  name: "PortfolioVanshaj",
   tagline: "Design Engineer & Systems Builder",
   email: "hello@portfolio.dev",
   copyright: "Portfolio — © 2024 Design & Code. All rights reserved.",

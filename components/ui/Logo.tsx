@@ -49,7 +49,7 @@ export function Logo({ className = "", showWordmark = true }: LogoProps) {
       </svg>
       {showWordmark && (
         <span className="text-sm font-semibold tracking-tight text-foreground">
-          Portfolio
+          PortfolioVanshaj
         </span>
       )}
     </span>
